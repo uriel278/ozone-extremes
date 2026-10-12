@@ -6,6 +6,4 @@ The modeling strategy is two step:
 - Remove seasonal effect from the extreme observations using a regression for extremes model with two pair of sine and cosine terms to account for cyclic variation.
 - Model the *corrected* data using a Latent Gaussian Process with Matern covariance function to account for spatial dependence and downscaling of results to 1 $\text{km}^2$ resolution (return levels).
 
-This project employs Bayesian inference for estimation of the parameters of the model, and their uncertainties. The package chosen was R-INLA due to is fast implementation of Latent Gaussian Models for spatial modeling.
-
-
+This project employs Bayesian inference for estimation of the parameters of the model, and their uncertainties. The package chosen was R-INLA due to is fast implementation of Latent Gaussian Models for spatial modeling. The technical details can be found in the [corresponding file](technical-report/00_technical-details-report.pdf)
