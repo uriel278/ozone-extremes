@@ -1,7 +1,7 @@
 # Ozone extreme downscaling using Latent Gaussian Models
 ## Overview
 This repository contains the code, technical note and summary slides of the results of the project "Downscaling Ozone extremes using Latent Gaussian Models".
-In this project, satellite data at 10 km$^2$ is used to fit an extreme value model with latent gaussian models that allow computing return levels for risk assesment and downscaling to 1 km$^2$ to allow risk assesment at high resolution.
+In this project, satellite data at 10 km$`\^2`$ is used to fit an extreme value model with latent gaussian models that allow computing return levels for risk assesment and downscaling to 1 km$`\^2`$ to allow risk assesment at high resolution.
 The modeling strategy is two step:
 - Remove seasonal effect from the extreme observations using a regression for extremes model with two pair of sine and cosine terms to account for cyclic variation.
 - Model the *corrected* data using a Latent Gaussian Process with Matern covariance function to account for spatial dependence and downscaling of results to 1 km$^2$ resolution (return levels).
