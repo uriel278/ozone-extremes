@@ -7,3 +7,5 @@ The modeling strategy is two step:
 - Model the *corrected* data using a Latent Gaussian Process with Matern covariance function to account for spatial dependence and downscaling of results to 1 $\text{km}^2$ resolution (return levels).
 
 This project employs Bayesian inference for estimation of the parameters of the model, and their uncertainties. The package chosen was R-INLA due to is fast implementation of Latent Gaussian Models for spatial modeling. The technical details can be found in the [corresponding file](technical-report/00_technical-details-report.pdf) and a short presentation (slides) can be found [here](technical-report/ozone-thresholds-spanish.pdf)
+
+![Alt Text](technical-report/diagrama_modelacion.svg)
